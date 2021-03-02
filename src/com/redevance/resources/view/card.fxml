@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="114.0" prefWidth="198.0" style="-fx-background-color: #FFF;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.redevance.controller.CardController">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="114.0" prefWidth="232.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <FontAwesomeIconView fx:id="icon" fill="#02d028" glyphName="ARROW_UP" layoutX="174.0" layoutY="88.0" size="18" />
+            <Label fx:id="value" layoutX="70.0" layoutY="46.0" text="Label" textFill="#656565">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="name" layoutX="10.0" layoutY="10.0" text="NEW ORDERS" textFill="#646464" />
+            <JFXButton contentDisplay="RIGHT" defaultButton="true" graphicTextGap="0.0" layoutX="155.0" style="-fx-background-color: #fff;" text="..." textFill="#238fcf" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

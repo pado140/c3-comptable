@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="content" prefHeight="372.0" prefWidth="600.0" styleClass="paneFrame" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.redevance.controller.NewContratController">
+   <children>
+      <JFXButton layoutX="557.0" layoutY="37.0" onAction="#close" text="X" />
+      <Label layoutX="51.0" layoutY="30.0" prefHeight="38.0" prefWidth="487.0" styleClass="h2" text="Enregistrer un nouveau contrat de Livre">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Line endX="458.0" layoutX="124.0" layoutY="67.0" startX="-100.0" />
+      <Label layoutX="51.0" layoutY="80.0" styleClass="h6_bold" text="Livre:" />
+      <Label fx:id="livre" alignment="TOP_LEFT" layoutX="51.0" layoutY="100.0" prefHeight="56.0" prefWidth="525.0" style="-fx-background-color: ccc;" styleClass="h6" text="Label" wrapText="true" />
+      <Label layoutX="51.0" layoutY="165.0" styleClass="h6_bold" text="Type de contrat" />
+      <Label layoutX="52.0" layoutY="201.0" styleClass="h6_bold" text="Pourcentage Auteur:" />
+      <Label layoutX="326.0" layoutY="201.0" styleClass="h6_bold" text="Pourcentage Edition:" />
+      <Label layoutX="52.0" layoutY="262.0" styleClass="h6_bold" text="Quantite de Livre:" />
+      <Label layoutX="326.0" layoutY="262.0" styleClass="h6_bold" text="Montant du Contrat:" />
+      <TextField fx:id="pauteur" layoutX="53.0" layoutY="221.0" />
+      <TextField fx:id="pedition" layoutX="326.0" layoutY="221.0" />
+      <Spinner fx:id="qty" editable="true" layoutX="54.0" layoutY="282.0" />
+      <ComboBox fx:id="contrat" layoutX="170.0" layoutY="163.0" prefHeight="22.0" prefWidth="406.0" />
+      <TextField fx:id="mnt" layoutX="326.0" layoutY="282.0" />
+      <JFXButton layoutX="480.0" layoutY="323.0" onAction="#save" styleClass="primary_btn" text="Enregistrer" AnchorPane.bottomAnchor="23.0" AnchorPane.rightAnchor="27.0">
+         <graphic>
+            <FontAwesomeIconView glyphName="SAVE" size="18" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

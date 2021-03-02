@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="content" prefHeight="406.0" prefWidth="438.0" styleClass="paneFrame" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.redevance.controller.NewAuteurController">
+   <children>
+      <Label layoutX="79.0" layoutY="24.0" styleClass="h3" text="Enregistrer un nouveau Auteur" textFill="#ff7350">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nom" layoutX="52.0" layoutY="93.0" prefHeight="30.0" prefWidth="316.0" />
+      <Label layoutX="53.0" layoutY="75.0" styleClass="h6" text="Nom" />
+      <JFXButton layoutX="236.0" layoutY="345.0" onAction="#save" prefHeight="30.0" prefWidth="56.0" styleClass="primary_btn" text="SAVE" textFill="WHITE" />
+      <JFXButton layoutX="310.0" layoutY="345.0" onAction="#cancel" prefHeight="30.0" prefWidth="77.0" styleClass="cancel_btn" text="CANCEL" textFill="WHITE" />
+      <Label layoutX="399.0" layoutY="25.0" onMouseClicked="#closed" text="X">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="prenom" layoutX="51.0" layoutY="153.0" prefHeight="30.0" prefWidth="316.0" />
+      <Label layoutX="52.0" layoutY="135.0" styleClass="h6" text="Prenom" />
+      <TextField fx:id="tel" layoutX="52.0" layoutY="221.0" prefHeight="30.0" prefWidth="316.0" />
+      <Label layoutX="53.0" layoutY="203.0" styleClass="h6" text="Telephone" />
+      <TextField fx:id="mail" layoutX="51.0" layoutY="281.0" prefHeight="30.0" prefWidth="316.0" />
+      <Label layoutX="52.0" layoutY="263.0" styleClass="h6" text="E-mail" />
+      <Line endX="275.0" layoutX="135.0" layoutY="55.0" startX="-100.0" />
+   </children>
+</AnchorPane>

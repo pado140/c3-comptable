@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/VenteController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/dao/AuteurModel.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/ClientsController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/resources/view/promotion.fxml</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/utils/ViewUtils.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/MainController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/bean/Vente_details.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/ProductionController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/VenteListController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/services/AppServices.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/dao/ClientModel.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/dao/VenteDetailModel.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/dao/VenteModel.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/ORM/ConnectionSql.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/dao/ImplModel.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/resources/view/RetourAuteur.fxml</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/bean/Clients.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/AuteurController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/RetourAuteurController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/resources/menu/vertical/InitMenu.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/BookController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/NewAuteurController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/resources/view/clients.fxml</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/controller/FiltreCustomerController.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/utils/AppUtils.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/bean/Ventes.java</file>
+            <file>file:/C:/Users/Padovano/Documents/NetBeansProjects/c3editionControl/src/com/redevance/dao/bean/Auteurs.java</file>
+        </group>
+    </open-files>
+</project-private>

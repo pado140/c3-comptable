@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" fx:id="content" prefHeight="282.0" prefWidth="467.0" styleClass="paneFrame" stylesheets="@../css/style.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="com.redevance.controller.VersementController">
+   <children>
+      <Label layoutX="47.0" layoutY="75.0" prefHeight="30.0" prefWidth="109.0" text="Redevance:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="113.0" prefHeight="30.0" prefWidth="85.0" text="Montant:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="151.0" prefHeight="30.0" prefWidth="109.0" text="Checque No:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="189.0" prefHeight="30.0" prefWidth="85.0" text="Date:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="906.0" layoutY="37.0" onAction="#close" text="X" AnchorPane.rightAnchor="27.0" AnchorPane.topAnchor="27.0" />
+      <Label layoutX="73.0" layoutY="19.0" prefHeight="38.0" prefWidth="292.0" styleClass="h2" text="Versement Redevance">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <Line endX="306.5" layoutX="140.5" layoutY="56.0" startX="-100.0" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="27.0" />
+      <TextField editable="false" layoutX="176.0" layoutY="77.0" prefHeight="27.0" prefWidth="223.0" />
+      <TextField fx:id="mnt" layoutX="176.0" layoutY="115.0" prefHeight="27.0" prefWidth="223.0" />
+      <TextField fx:id="check" layoutX="176.0" layoutY="152.0" prefHeight="27.0" prefWidth="223.0" />
+      <DatePicker fx:id="created" layoutX="176.0" layoutY="188.0" prefHeight="27.0" prefWidth="223.0" />
+      <HBox layoutX="176.0" layoutY="242.0" spacing="10.0" AnchorPane.bottomAnchor="27.0" AnchorPane.rightAnchor="47.0">
+         <children>
+            <JFXButton onAction="#save" styleClass="primary_btn" text="Eneregistrer" />
+            <JFXButton onAction="#cancel" styleClass="cancel_btn" text="Annuler" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

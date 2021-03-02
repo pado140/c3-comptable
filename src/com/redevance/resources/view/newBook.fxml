@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="content" prefHeight="511.0" prefWidth="600.0" styleClass="paneFrame" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.redevance.controller.NewBookController">
+   <children>
+      <JFXButton layoutX="551.0" layoutY="30.0" onAction="#close" text="X" />
+      <Label layoutX="43.0" layoutY="23.0" prefHeight="38.0" prefWidth="487.0" styleClass="h2" text="Enregistrer un nouveau contrat de Livre">
+         <font>
+            <Font name="System Bold" size="26.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_RIGHT" layoutX="209.0" layoutY="447.0" prefHeight="27.0" prefWidth="373.0" spacing="20.0" AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="18.0">
+         <children>
+            <JFXButton onAction="#save" styleClass="primary_btn" text="Enregistrer" textFill="WHITE">
+               <graphic>
+                  <FontAwesomeIconView fill="WHITE" glyphName="SAVE" />
+               </graphic></JFXButton>
+            <JFXButton onAction="#savennew" styleClass="primary_btn" text="Enregistrer et continuer" textFill="WHITE" />
+            <JFXButton onAction="#cancel" styleClass="cancel_btn" text="Annuler" textFill="WHITE" />
+         </children>
+      </HBox>
+      <Line endX="458.0" layoutX="121.0" layoutY="60.0" startX="-100.0" />
+      <Hyperlink layoutX="14.0" layoutY="193.0" onAction="#load" onTouchPressed="#load" prefHeight="23.0" prefWidth="153.0" text="telecharger l'image du livre" />
+      <Hyperlink layoutX="14.0" layoutY="216.0" onAction="#remove" prefHeight="23.0" prefWidth="153.0" text="utiliser l'image par defaut" />
+      <Pane fx:id="pane_image" layoutX="23.0" layoutY="70.0" prefHeight="123.0" prefWidth="136.0" style="-fx-border-color: gray; -fx-border-radius: 15;">
+         <children>
+            <ImageView fx:id="image" fitHeight="123.0" fitWidth="136.0" onMouseClicked="#load" onTouchPressed="#load" pickOnBounds="true" />
+         </children>
+      </Pane>
+      <Label layoutX="199.0" layoutY="78.0" prefHeight="27.0" prefWidth="136.0" styleClass="h6" text="Titre du livre:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="titre_field" labelFloat="true" layoutX="339.0" layoutY="75.0" prefHeight="25.0" prefWidth="228.0" styleClass="text-field">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="199.0" layoutY="113.0" prefHeight="27.0" prefWidth="144.0" styleClass="h6" text="Resume du livre:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="description_field" layoutX="335.0" layoutY="112.0" prefHeight="82.0" prefWidth="236.0" />
+      <Label layoutX="199.0" layoutY="214.0" prefHeight="27.0" prefWidth="120.0" styleClass="h6" text="ISBN du livre:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="isbn_field" accessibleHelp="Eviter d'ajouter lis trait d'union" layoutX="335.0" layoutY="210.0" prefHeight="30.0" prefWidth="236.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="199.0" layoutY="251.0" prefHeight="27.0" prefWidth="153.0" styleClass="h6" text="Auteurs du livre:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="auteurs_select" layoutX="335.0" layoutY="248.0" prefHeight="30.0" prefWidth="236.0" />
+      <Label layoutX="199.0" layoutY="288.0" prefHeight="27.0" prefWidth="136.0" styleClass="h6" text="Edition du livre:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="edition_field" layoutX="335.0" layoutY="283.0" prefHeight="30.0" prefWidth="236.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="199.0" layoutY="327.0" prefHeight="27.0" prefWidth="136.0" styleClass="h6" text="Quantite livre:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="qty_field" layoutX="335.0" layoutY="322.0" prefHeight="30.0" prefWidth="236.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </JFXTextField>
+      <Label layoutX="199.0" layoutY="406.0" prefHeight="23.0" prefWidth="112.0" styleClass="h6" text="Prix livre:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="prix_field" layoutX="335.0" layoutY="401.0" prefHeight="32.0" prefWidth="153.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </JFXTextField>
+      <Label layoutX="509.0" layoutY="402.0" prefHeight="32.0" prefWidth="66.0" styleClass="h6" text="HTG" />
+      <Label layoutX="199.0" layoutY="372.0" prefHeight="27.0" prefWidth="144.0" styleClass="h6" text="Categorie:" textFill="#00234f">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <JFXComboBox fx:id="categorie" layoutX="335.0" layoutY="366.0" prefHeight="25.0" prefWidth="153.0" />
+      <JFXButton layoutX="488.0" layoutY="366.0" onAction="#new_cat">
+         <graphic>
+            <FontAwesomeIconView glyphName="PLUS" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

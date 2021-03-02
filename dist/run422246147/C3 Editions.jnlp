@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="C3 Editions.jnlp">
+  <information>
+    <title>C3 Editions</title>
+    <vendor>MICROTIC</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  <shortcut><desktop/></shortcut>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="c3editionControl.jar" size="83052059" download="eager" />
+    <jar href="lib\HikariCP-3.4.5.jar" size="156005" download="eager" />
+    <jar href="lib\antlr-2.7.7.jar" size="445288" download="eager" />
+    <jar href="lib\antlr-runtime-3.5.2.jar" size="167761" download="eager" />
+    <jar href="lib\checker-qual-2.5.2.jar" size="193322" download="eager" />
+    <jar href="lib\commons-codec-1.12.jar" size="339669" download="eager" />
+    <jar href="lib\commons-compress-1.18.jar" size="591748" download="eager" />
+    <jar href="lib\commons-io-2.6.jar" size="214788" download="eager" />
+    <jar href="lib\commons-lang3-3.9.jar" size="503880" download="eager" />
+    <jar href="lib\controlsfx-8.40.11.jar" size="985420" download="eager" />
+    <jar href="lib\docx4j-JAXB-Internal-8.1.7.jar" size="4218" download="eager" />
+    <jar href="lib\docx4j-JAXB-MOXy-8.1.7.jar" size="4504" download="eager" />
+    <jar href="lib\docx4j-core-8.1.7.jar" size="2872338" download="eager" />
+    <jar href="lib\docx4j-openxml-objects-8.1.7.jar" size="2264436" download="eager" />
+    <jar href="lib\docx4j-openxml-objects-pml-8.1.7.jar" size="362483" download="eager" />
+    <jar href="lib\docx4j-openxml-objects-sml-8.1.7.jar" size="589697" download="eager" />
+    <jar href="lib\error_prone_annotations-2.2.0.jar" size="13694" download="eager" />
+    <jar href="lib\fontawesomefx-commons-8.15.jar" size="20957" download="eager" />
+    <jar href="lib\fontawesomefx-controls-8.15.jar" size="3369" download="eager" />
+    <jar href="lib\fontawesomefx-emojione-2.2.7-2.jar" size="3642164" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-5.jar" size="136891" download="eager" />
+    <jar href="lib\fontawesomefx-glyphsbrowser-1.3.0.jar" size="68461" download="eager" />
+    <jar href="lib\fontawesomefx-icons525-3.0.0-4.jar" size="110545" download="eager" />
+    <jar href="lib\fontawesomefx-materialdesignfont-1.7.22-4.jar" size="197373" download="eager" />
+    <jar href="lib\fontawesomefx-materialicons-2.2.0-5.jar" size="103686" download="eager" />
+    <jar href="lib\fontawesomefx-octicons-4.3.0-5.jar" size="37157" download="eager" />
+    <jar href="lib\fontawesomefx-weathericons-2.0.10-5.jar" size="83098" download="eager" />
+    <jar href="lib\httpclient-4.5.8.jar" size="772386" download="eager" />
+    <jar href="lib\httpcore-4.4.11.jar" size="326874" download="eager" />
+    <jar href="lib\itextpdf-5.5.4.jar" size="2148384" download="eager" />
+    <jar href="lib\jackson-annotations-2.9.0.jar" size="66519" download="eager" />
+    <jar href="lib\jackson-core-2.9.9.jar" size="325632" download="eager" />
+    <jar href="lib\jackson-databind-2.9.9.jar" size="1348108" download="eager" />
+    <jar href="lib\jaxb-svg11-1.0.2.jar" size="280402" download="eager" />
+    <jar href="lib\jcl-over-slf4j-1.7.26.jar" size="16461" download="eager" />
+    <jar href="lib\jfoenix.jar" size="2414497" download="eager" />
+    <jar href="lib\mbassador-1.3.2.jar" size="98376" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.20.jar" size="2385601" download="eager" />
+    <jar href="lib\org.eclipse.persistence.asm-2.7.4.jar" size="508314" download="eager" />
+    <jar href="lib\org.eclipse.persistence.core-2.7.4.jar" size="5393770" download="eager" />
+    <jar href="lib\org.eclipse.persistence.moxy-2.7.4.jar" size="652945" download="eager" />
+    <jar href="lib\slf4j-api-1.7.26.jar" size="41139" download="eager" />
+    <jar href="lib\stringtemplate-3.2.1.jar" size="148627" download="eager" />
+    <jar href="lib\wmf2svg-0.9.8.jar" size="86772" download="eager" />
+    <jar href="lib\xalan-interpretive-8.0.0.jar" size="1813992" download="eager" />
+    <jar href="lib\xalan-metainf-8.0.0.jar" size="3954" download="eager" />
+    <jar href="lib\xalan-serializer-8.0.0.jar" size="288575" download="eager" />
+    <jar href="lib\xmlgraphics-commons-2.3.jar" size="671727" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="C3 Editions" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.redevance.Main"  name="C3 Editions" />
+  <update check="background"/>
+</jnlp>
